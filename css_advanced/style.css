@@ -63,6 +63,12 @@ body {
   justify-content: center;
   text-align: center;
 }
+.text-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: start;
+}
 .tutorials {
   display: flex;
   flex-direction: row;
