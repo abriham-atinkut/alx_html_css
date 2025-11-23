@@ -1,6 +1,6 @@
 :root {
   --primary-color: white;
-  --secode-bg-color: #ed09de;
+  --secode-bg-color: #da09edde;
 }
 * {
 }
@@ -61,4 +61,7 @@ body {
   flex-direction: row;
   justify-content: center;
   text-align: center;
+}
+.bg-rose {
+    background-color: var(--secode-bg-color);
 }
