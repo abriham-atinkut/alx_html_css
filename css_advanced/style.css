@@ -69,9 +69,11 @@ body {
   justify-content: center;
   text-align: start;
 }
-.tutorials {
+.smail-footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
   /* justify-content: start; */
 }
 .bg-rose {
