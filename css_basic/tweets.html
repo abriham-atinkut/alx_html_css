@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tweets ALX</title>
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
@@ -17,39 +17,44 @@
         </ul>
       </nav>
     </header>
-    <main id="main">
-      <h1>Rename your local master branch to main</h1>
-      <h2><code>git branch -m master main</code></h2>
-      <h3>
-        Instead, we'll have to create a new "main" branch and then delete the
-        old "master" branch. The git push -u origin main command will push the
-        local "main" branch to the remote, regardless of which branch is
-        currently checked out (i.e., regardless of where HEAD is pointing).
-      </h3>
+    <main id="main" class="main">
+      <article class="article">
+        <h1>Rename your local master branch to main</h1>
+        <h2><code>git branch -m master main</code></h2>
+        <h3>
+          Instead, we'll have to create a new "main" branch and then delete the
+          old "master" branch. The git push -u origin main command will push the
+          local "main" branch to the remote, regardless of which branch is
+          currently checked out (i.e., regardless of where HEAD is pointing).
+        </h3>
 
-      <p>
-        To change the default branch from `master` to `main` both locally and
-        remotely, you'll need to follow these steps: 1. Change the branch name
-        locally: bash git branch -m master main 2. Push the changes to the
-        remote repository: bash git push -u origin main 3.
-      </p>
+        <p>
+          To change the default branch from `master` to `main` both locally and
+          remotely, you'll need to follow these steps: 1. Change the branch name
+          locally: bash git branch -m master main 2. Push the changes to the
+          remote repository: bash git push -u origin main 3.
+        </p>
 
-      <p>
-        Git changed its default branch name from master to main due to concerns
-        about inclusivity and to remove references to terms with problematic
-        historical connotations.
-      </p>
-      <p>
-        In this case, Git does a simple three-way merge, using the two snapshots
-        pointed to by the branch tips and the common ancestor of the two.
-      </p>
-      <p>
-        Instead of just moving the branch pointer forward, Git creates a new
-        snapshot that results from this three-way merge and automatically
-        creates a new commit that points to it.
-      </p>
-      <article>
-        <img src="https://media.istockphoto.com/id/1183574274/photo/beautiful-afro-woman.jpg?s=1024x1024&w=is&k=20&c=nvtwi6jiLTD-Hm3uTETNMJHk74Dj3FL9VoH2tFBi-Qc=" alt="">
+        <p>
+          Git changed its default branch name from master to main due to
+          concerns about inclusivity and to remove references to terms with
+          problematic historical connotations.
+        </p>
+        <p>
+          In this case, Git does a simple three-way merge, using the two
+          snapshots pointed to by the branch tips and the common ancestor of the
+          two.
+        </p>
+        <p>
+          Instead of just moving the branch pointer forward, Git creates a new
+          snapshot that results from this three-way merge and automatically
+          creates a new commit that points to it.
+        </p>
+
+        <img
+          src="https://media.istockphoto.com/id/1183574274/photo/beautiful-afro-woman.jpg?s=1024x1024&w=is&k=20&c=nvtwi6jiLTD-Hm3uTETNMJHk74Dj3FL9VoH2tFBi-Qc="
+          alt="" width="420" height="420"
+        />
         <blockquote class="twitter-tweet">
           <p lang="en" dir="ltr">
             The Tech Landscape in Ethiopia<br /><br />Join us on January 9 for
@@ -72,10 +77,16 @@
         ></script>
         <a href="index.html" target="_blank">Tweets</a>
       </article>
-      <aside>
-         placeholder to add comment thread later
+      <aside class="aside">
+        placeholder to add comment thread later
       </aside>
     </main>
-    <footer id="footer"><p>Made by Abriham -<a href="https://abriham.com.et" target='_blank'>here</a> </p></footer>
+    <footer id="footer">
+      <p>
+        Made by Abriham -<a href="https://abriham.com.et" target="_blank"
+          >here</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

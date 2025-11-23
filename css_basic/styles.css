@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.article {
+  width: 66.66%;
+}
+.aside {
+  width: 33.34%;
+}
