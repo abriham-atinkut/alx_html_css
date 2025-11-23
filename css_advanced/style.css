@@ -3,8 +3,7 @@
   --secode-bg-color: #c670ff;
   --blue-bg-color: #021027;
 }
-* {
-}
+
 body {
   margin: 0;
   padding: 0;
@@ -15,18 +14,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--primary-color);
-  /* height: 500px; */
-  /* width: auto; */
-  /* padding: 0; */
-  /* margin: 0; */
-  /* width: 100%; */
 }
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
-  /* gap: 20px; */
 }
 .nav-ul {
   display: flex;
@@ -35,10 +27,6 @@ body {
 }
 .nav-ul li a {
   color: var(--primary-color);
-}
-.hero-text {
-  /* text-align: center; */
-  /* margin: 0 auto; */
 }
 .container_1 {
   text-align: center;
@@ -49,8 +37,6 @@ body {
   justify-content: center;
   gap: 10px;
   padding-bottom: 10px;
-  /* text-align: center; */
-  /* margin: auto 0; */
 }
 .button {
   color: white;
@@ -74,7 +60,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 40px;
-  /* justify-content: start; */
 }
 .bg-rose {
   background-color: var(--secode-bg-color);
@@ -87,4 +72,24 @@ body {
 }
 .white {
   color: rgba(255, 255, 255, 0.9);
+}
+.faq-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+}
+.faq-inner-right {
+  margin-right: 10px;
+}
+.faq-inner-left {
+  margin-left: 10px;
+}
+.membership {
+  padding: 20px;
+}
+.mem-button {
+  padding-top: 20px;
+}
+.mem-title {
+  padding-bottom: 20px;
 }
