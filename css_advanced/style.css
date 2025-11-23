@@ -62,6 +62,15 @@ body {
   justify-content: center;
   text-align: center;
 }
+.tutorials {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: start; */
+}
 .bg-rose {
-    background-color: var(--secode-bg-color);
+  background-color: var(--secode-bg-color);
+}
+
+.rose {
+  color: var(--secode-bg-color);
 }
