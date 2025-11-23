@@ -1,6 +1,7 @@
 :root {
   --primary-color: white;
-  --secode-bg-color: #da09edde;
+  --secode-bg-color: #c670ff;
+  --blue-bg-color: #021027;
 }
 * {
 }
@@ -70,7 +71,12 @@ body {
 .bg-rose {
   background-color: var(--secode-bg-color);
 }
-
+.bg-blue {
+  background-color: var(--blue-bg-color);
+}
 .rose {
   color: var(--secode-bg-color);
+}
+.white {
+  color: rgba(255, 255, 255, 0.9);
 }
